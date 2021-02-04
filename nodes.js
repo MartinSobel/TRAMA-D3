@@ -3,12 +3,12 @@ var width = 900,
 height = 600;
 
 //Set up the colour scale
-var color = d3.scale.category20c();
+var color = d3.scale.category10();
 
 //Set up the force layout
 var force = d3.layout.force()
-.charge(-500)
-.linkDistance(200)
+.charge(-700)
+.linkDistance(500)
 .size([width, height]);
 
 
@@ -43,16 +43,16 @@ var graph = {
         // {"name":"Blacheville","group":3},
     ],
     "links":[
-        {"source":1,"target":0,"value":1},
-        {"source":2,"target":0,"value":1},
-        {"source":3,"target":0,"value":1},
-        {"source":3,"target":2,"value":1},
-        {"source":4,"target":0,"value":1},
-        {"source":5,"target":0,"value":1},
-        {"source":6,"target":0,"value":1},
-        {"source":7,"target":0,"value":1},
-        {"source":8,"target":0,"value":1},
-        {"source":9,"target":0,"value":1},
+        // {"source":1,"target":0,"value":1},
+        // {"source":2,"target":0,"value":1},
+        // {"source":3,"target":0,"value":1},
+        // {"source":3,"target":2,"value":1},
+        // {"source":4,"target":0,"value":1},
+        // {"source":5,"target":0,"value":1},
+        // {"source":6,"target":0,"value":1},
+        // {"source":7,"target":0,"value":1},
+        // {"source":8,"target":0,"value":1},
+        // {"source":9,"target":0,"value":1},
         // {"source":11,"target":10,"value":1},
         // {"source":11,"target":3,"value":1},
     ]
